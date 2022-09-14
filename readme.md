@@ -3,6 +3,8 @@
 https://github.com/Ninagawa123/Meridian_core/tree/main/Unity_demo  
 こちらをベースに、チェックボックスにチェックを入れるとVRChatに同期する機能を足しました。
 
+こちらのVRChatワールドで動作確認が出来ます。  
+https://vrch.at/vqx9czsf
 
 
 # 動作方法
@@ -17,3 +19,5 @@ https://github.com/keijiro/unity-midi-bridge
 https://github.com/keijiro/midi-bridge-windows
 
 https://www.tobias-erichsen.de/software/loopmidi.html
+
+
