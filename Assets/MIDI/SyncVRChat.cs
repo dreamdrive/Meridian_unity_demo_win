@@ -36,7 +36,6 @@ public class SyncVRChat : MonoBehaviour
             for (int i = 0; i < 11; i++)
             {
                 send_value = ((int)(-pm.ServoAngles_L_disp[i] * 10)) + 1800;
-                if (i == 0) send_value = ((int)(-pm.ServoAngles_R_disp[i] * 10)) + 1800;    // 0‚ÌŽž‚¾‚¯LR‚Ì“ü‚ê‘Ö‚¦
                 if (i == 2) send_value = ((int)(pm.ServoAngles_L_disp[i] * 10)) + 1800;
                 if (i == 6) send_value = ((int)(pm.ServoAngles_L_disp[i] * 10)) + 1800;
                 if (i == 10) send_value = ((int)(pm.ServoAngles_L_disp[i] * 10)) + 1800;
@@ -51,7 +50,7 @@ public class SyncVRChat : MonoBehaviour
             for (int i = 0; i < 11; i++)
             {
                 send_value = ((int)(-pm.ServoAngles_R_disp[i] * 10)) + 1800;
-                if (i == 0) send_value = ((int)(-pm.ServoAngles_L_disp[i] * 10)) + 1800;    // 0‚ÌŽž‚¾‚¯LR‚Ì“ü‚ê‘Ö‚¦
+                if (i == 3) send_value = ((int)(pm.ServoAngles_R_disp[i] * 10)) + 1800;
                 if (i == 5) send_value = ((int)(pm.ServoAngles_R_disp[i] * 10)) + 1800;
 
                 velocity = send_value % 128;
